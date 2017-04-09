@@ -7,7 +7,7 @@ You can find the most recent version of this guide [here](https://github.com/fac
 
 To make the auto-reload feature work, edit the `proxy` option in `package.json` to point to your Glitch app.
 
-## Setting up GitHub Pages for your build
+## Setting up GitHub Pages for your Glitch app
 
 This is a short manual on how to set up this react app to work with GitHub pages. The result should be a glitch.com project that, when exporting to GitHub will trigger a rebuild and deployment of your website. These tasks will be completed by Travis CI. I followed [this guide](https://blog.ngconsultant.io/continuous-deployment-of-client-side-apps-with-github-pages-travis-ci-10e9d641a889).
 
@@ -25,6 +25,9 @@ This is a short manual on how to set up this react app to work with GitHub pages
 - Grant glitch.com access to GitHub (to enable export)
 - Copy the GitHub USERNAME/REPO string (basically your GH_REF without github.com/)
 - Export to GitHub (paste USERNAME/REPO in this blocking pop up that won't even let you open a new tab to copy this info)
+- Things that are not necessary but nice:
+  - Change your default branch to glitch and delete the master branch
+  - Add the project url to your project's description
 
 ## Table of Contents
 

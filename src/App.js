@@ -26,7 +26,7 @@ class App extends Component {
             <li>Go to the Travis project settings of your repository and make the following changes
               <ul>
                 <li>Enable “Build only if .travis.yml is present”</li>
-                <li>Add the GH_REF environment variable. In this example this would be <a href="http://github.com/Spreadyy/CreateReactAppGlitch">github.com/Spreadyy/CreateReactAppGlitch</a>.</li>
+                <li>Add the GH_REF environment variable. In this example this would be <a href="http://github.com/sandrosc/CreateReactAppGlitch">github.com/sandrosc/CreateReactAppGlitch</a>.</li>
                 <li>Add the GH_TOKEN environment variable. Remember this personal blabla random string from GitHub earlier? This is now your
                   GH_TOKEN. Turn “Display this value in build logs” to OFF!</li>
               </ul>

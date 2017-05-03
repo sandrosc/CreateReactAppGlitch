@@ -7,7 +7,7 @@
     "react": "^15.5.3",
     "react-dom": "^15.5.3"
   },
-  "proxy": "https://torch-tub.glitch.me/",
+  "proxy": "https://react-app-github-pages.glitch.me/",
   "devDependencies": {
     "react-scripts": "0.9.5"
   },
@@ -17,5 +17,5 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://spreadyy.github.io/CreateReactAppGlitch/"
+  "homepage": "https://sandrosc.github.io/CreateReactAppGlitch/"
 }

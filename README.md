@@ -19,7 +19,7 @@ This is a short manual on how to set up this react app to work with GitHub pages
 - At [Travis CI](https://travis-ci.org/) add your newly created repository (with the on/off switch)
 - Go to the Travis project settings of your repository and make the following changes
   - Enable "Build only if .travis.yml is present"
-  - Add the GH_REF environment variable. In this example this would be github.com/Spreadyy/CreateReactAppGlitch.
+  - Add the GH_REF environment variable. In this example this would be github.com/sandrosc/CreateReactAppGlitch.
   - Add the GH_TOKEN environment variable. Remember this personal blabla random string from GitHub earlier? This is now your GH_TOKEN. Turn "Display this value in build logs" to OFF!
 - Edit the homepage entry in package.json
 - Grant glitch.com access to GitHub (to enable export)
